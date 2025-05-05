@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Rubik", serif;
+}
+
+.navigation {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 0.05rem;
+    color: #A31D1D;
+    display: flex;
+    justify-content: center;
+
+}
+
+hr {
+    color: black;
+}
+
+
+.card {
+
+    gap: 16px;
+    flex-wrap: wrap;
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation: popIn 1s ease;
+}
+
+
+@keyframes popIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.titleofcards3 {
+    display: flex;
+    justify-content: center;
+    color: rgb(32, 32, 78);
+}
+
+.CARD-CONtainer {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation: popIn 1s ease;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+button {
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: #872121;
+    color: white;
+    border-radius: 22px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+
+button:hover {
+    background-color: #350808;
+}
+
+
+h6 {
+
+    display: flex;
+    justify-content: center;
+
+}

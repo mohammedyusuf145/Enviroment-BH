@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بيئتنا.. مستقبلنا</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <header class="navigation">
+        <header>
+            <h1>المحافظة على بيئتنا في البحرين</h1>
+
+        </header>
+
+
+    </header>
+
+
+    <hr>
+
+    <h1 class="titleofcards3">مهمتنا</h1>
+    <div class="CARD-CONtainer">
+        <div class="card" style="width: 18rem;">
+            <img src="image/economy.png" class="card-img-top" alt="الاقتصاد">
+            <div class="card-body">
+                <h5 class="card-title"> الاقتصاد المستدام</h5>
+                <a href="eqtsad.html" class="btn btn-primary">لمعلومات أكثر</a>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="card" style="width: 18rem;">
+            <img src="image/planet-earth.png" class="card-img-top" alt="البيئة">
+            <div class="card-body">
+                <h5 class="card-title"> البيئة المستدامة
+                </h5>
+                <a href="bea mustdama.html" class="btn btn-primary">لمعلومات أكثر</a>
+            </div>
+        </div>
+
+
+
+        <div class="card" style="width: 18rem;">
+            <img src="image/group.png" class="card-img-top" alt="البيئة">
+            <div class="card-body">
+                <h5 class="card-title"> المجتمع المستدام
+                </h5>
+                <a href="almochtama.html" class="btn btn-primary">لمعلومات أكثر</a>
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+
+    <center>
+        <button onclick="showTip()">اعرض لي نصيحة جديدة</button>
+
+    </center>
+
+    <script>
+        const tips = [
+            "أطفئ الأنوار عندما لا تحتاجها.",
+            "استخدم الأكياس القماش بدل البلاستيك.",
+            "وفّر في استهلاك المياه.",
+            "شارك في حملات تنظيف البيئة.",
+            "استخدم وسائل النقل العامة."
+        ];
+
+        function showTip() {
+            const randomTip = tips[Math.floor(Math.random() * tips.length)];
+            alert(randomTip);
+        }
+    </script>
+
+    <br>
+    <section>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        حملات تنظيف السواحل.
+
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>حملات تنظيف السواحل فعاليات ينظمونها متطوعين أو جهات رسمية علشان يشيلون النفايات من
+                            الشواطئ. الهدف منها حماية الكائنات البحرية من البلاستيك والمخلفات، وتحسين شكل السواحل.
+                            الحملة عادة تشمل جمع المخلفات، وفرزها، والتوعية بأهمية المحافظة على البحر. شاركوا فيها ناس
+                            من كل الأعمار، وساعدوا بتقليل التلوث وتحسين البيئة البحرية.
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        زراعة الأشجار والنخيل.
+
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>زراعة الأشجار والنخيل من أهم الأعمال اللي تحافظ على البيئة. الأشجار تعطينا هواء نقي،
+                            وتخفف من حرارة الجو، وتوفر ظل ومكان آمن للطيور. والنخيل بالذات له قيمة كبيرة عندنا في
+                            البحرين، لأنه رمز للخير والرزق. كثير من الحملات اليوم تشجع الناس يزرعون شتلات في البيوت
+                            والشوارع علشان تزيد المساحات الخضراء وتحسن جودة الحياة.
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        مبادرات إعادة التدوير في المدارس والشركات.
+
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>مبادرات إعادة التدوير في المدارس والشركات تهدف لتقليل النفايات والحفاظ على البيئة.
+                            المدارس تعلم الطلاب من الصغر شلون يفرزون النفايات ويعيدون استخدامها، مثل إعادة تدوير الورق
+                            والبلاستيك. والشركات بعد صارت تطلق برامج خاصة تجمع النفايات القابلة للتدوير، وتقلل من
+                            استخدام المواد الضارة. هالمبادرات تساعد في نشر الوعي البيئي وتخلي المجتمع يعيش بطريقة أكثر
+                            استدامة.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+
+<footer>
+
+    <h6> معًا من أجل بيئة نظيفة © 2025
+    </h6>
+</footer>
+
+</html>
